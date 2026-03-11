@@ -1,0 +1,161 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background-color:rgb(54, 96, 133);
+}
+
+.container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+}
+
+.logo{
+font-size:2rem;
+color:red;
+font-weight:bold;
+}
+
+.navb{
+display:flex;
+gap:30px;
+}
+
+.navb a{
+text-decoration:none;
+color:black;
+font-size:18px;
+}
+
+.btn button{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:60px;
+}
+
+/* 
+.left{
+max-width:500px;
+} */
+.content{
+font-size:1.8rem;
+}
+.content h1{
+    font-size: 3rem;
+}
+
+.content p{
+margin-top:10px;
+}
+
+.content h3{
+margin-top:10px;
+font-size:1.4rem;
+}
+
+.btn1{
+margin-top:20px;
+display:flex;
+gap:20px;
+}
+.btn1 button{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+
+display:flex;
+align-items:center;
+gap:8px;
+
+transition:0.3s;
+}
+
+.btn1 button svg{
+width:18px;
+height:18px;
+fill:white;
+display:block;
+}
+
+.btn1 button:hover{
+    transform: scale(1.3);
+}
+ 
+
+.value{
+margin-top:30px;
+display:flex;
+gap:40px;
+}
+
+.value h3{
+font-size: 1.5rem;
+}
+
+.right-img img{
+width:650px;
+height:600px;
+object-fit:cover;
+border-radius:20px;
+}
+.centre{
+    text-align: center;
+
+}
+.centre p{
+    font-size: 1.5rem;
+}
+.last-point{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 0 60px;
+}
+.box{
+    flex: 1;
+    height: 300px;
+    background-color: rgb(22, 13, 101);
+    border-radius: 20px;
+}
+
+.box h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: pink;
+}
+.box h2{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+     background-color: black;
+     /* color: white; */
+}
+ 
